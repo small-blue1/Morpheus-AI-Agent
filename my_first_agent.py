@@ -10,7 +10,7 @@ st.set_page_config(page_title="墨菲斯的极客空间", page_icon="🕶️")
 st.title("🕶️ 墨菲斯的极客导师")
 st.caption("已挂载 [本地算法] 与 [全网嗅探] 模块...")
 
-MY_SECRET_KEY = "4afd41bb535c4f2db9ff6e0560387ab9.Jou956VXO30o0Sx6"  # 👉 换上你的智谱 Key
+MY_SECRET_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxx"  # 👉 换上你的智谱 Key
 client = OpenAI(api_key=MY_SECRET_KEY, base_url="https://open.bigmodel.cn/api/paas/v4")
 
 if "memory" not in st.session_state:
